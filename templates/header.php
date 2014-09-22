@@ -1,4 +1,4 @@
-<header class="banner navbar navbar-default navbar-static-top" role="banner">
+<header class="banner navbar navbar-default navbar-static-top text-center">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -7,15 +7,29 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="<?php echo esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
+      <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand"><?php bloginfo('name'); ?></a>
     </div>
 
-    <nav class="collapse navbar-collapse" role="navigation">
+    <nav class="collapse navbar-collapse pull-right" role="navigation">
       <?php
         if (has_nav_menu('primary_navigation')) :
           wp_nav_menu(array('theme_location' => 'primary_navigation', 'menu_class' => 'nav navbar-nav'));
         endif;
       ?>
     </nav>
+
   </div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>
+        Yerel ve bölgesel kamu yatırımları ve politikaları
+      </h1>
+      <br />
+      <button type="button" class="btn btn-default btn-lg">SİSTEM NASIL İŞLİYOR</button>
+      &nbsp;&nbsp;
+      <button type="button" class="btn btn-default btn-lg">NASIL MÜDAHİL OLABİLİRİZ</button>
+    </div>
+  </div>
+
 </header>
