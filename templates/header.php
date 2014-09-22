@@ -23,7 +23,7 @@
   <div class="container">
     <div class="jumbotron">
       <h1>
-        Yerel ve bölgesel kamu yatırımları ve politikaları
+        Yerel bölgesel kamu yatırımları ve politikaları
       </h1>
       <br />
       <button type="button" class="btn btn-default btn-lg">SİSTEM NASIL İŞLİYOR</button>
