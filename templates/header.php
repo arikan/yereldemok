@@ -26,9 +26,15 @@
         Yerel bölgesel kamu yatırımları ve politikaları
       </h1>
       <br />
-      <button type="button" class="btn btn-default btn-lg">SİSTEM NASIL İŞLİYOR</button>
+      <a href="http://yereldemokrasi.net/sistem-nasil-isliyor/" class="btn btn-default btn-lg">
+        SİSTEM NASIL İŞLİYOR
+      </a>
       &nbsp;&nbsp;
-      <button type="button" class="btn btn-default btn-lg">NASIL MÜDAHİL OLABİLİRİZ</button>
+      <a href="http://yereldemokrasi.net/nasil-mudahil-olabiliriz/" class="btn btn-default btn-lg">
+        NASIL MÜDAHİL OLABİLİRİZ
+      </a>
+      <!-- <button type="button" class="btn btn-default btn-lg"></button> -->
+      <!-- <button type="button" class="btn btn-default btn-lg">NASIL MÜDAHİL OLABİLİRİZ</button> -->
     </div>
   </div>
 
