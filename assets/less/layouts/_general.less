@@ -81,7 +81,7 @@ nav {
 }
 .carousel-inner {
   overflow: visible;
-  min-height: 550px;
+  // min-height: 550px;
 }
 .carousel-caption {
   // padding-bottom: 0;
@@ -96,9 +96,15 @@ nav {
   font-weight: 700;
   letter-spacing: -.04em;
   color: #666666;
+  @media (max-width: @screen-md) {
+    font-size: 1.0em;
+  }
+  @media (max-width: @screen-sm) {
+   font-size: 0.85em;
+  }
 }
 .carousel-indicators {
-  bottom: 0px;
+  bottom: -100px;
 }
 .carousel-indicators li {
   border: 1px solid #666666;
