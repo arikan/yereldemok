@@ -4,6 +4,9 @@
 // Main content area
 .main { }
 
+.navbar {
+  margin-bottom: 0;
+}
 .navbar-default {
   background-color: #FFFFFF;
   border:none;
@@ -65,4 +68,38 @@ nav {
     margin-top: 10px;
     font-size: 0.9em;
   }
+}
+
+// Carousel overwrite
+.carousel-control.left, .carousel-control.right {
+  background: none;
+  background-image: none;
+}
+.carousel-control {
+  text-shadow: 0;
+  color: #333333;
+}
+.carousel-inner {
+  overflow: visible;
+  min-height: 550px;
+}
+.carousel-caption {
+  // padding-bottom: 0;
+  padding-top:0;
+  bottom: -100px;
+  text-shadow: none;
+}
+.carousel-caption h3, .carousel-caption p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -.04em;
+  color: #666666;
+}
+.carousel-indicators {
+  bottom: 0px;
+}
+.carousel-indicators li {
+  border: 1px solid #666666;
+  background-color: rgb(0,0,0,0.8);
 }
