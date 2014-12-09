@@ -23,7 +23,7 @@
   <div class="container">
     <div class="jumbotron">
       <h1>
-        Yerel bölgesel kamu yatırımları ve politikaları
+        Yerel / Bölgesel Kamu Politikaları ve Yatırımları
       </h1>
       <br />
       <a href="http://yereldemokrasi.net/sistem-nasil-isliyor/" class="btn btn-default btn-lg">
