@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
       </button>
       <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand">
-        <?php bloginfo('name'); ?>
+        <img src="http://yereldemokrasi.net/wp-content/themes/roots/assets/img/yerel-demokrasi-logo.png" class="img-responsive">
       </a>
 
     </div>
