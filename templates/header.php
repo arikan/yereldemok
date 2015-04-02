@@ -7,7 +7,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand"><?php bloginfo('name'); ?></a>
+      <a href="<?php echo esc_url(home_url('/')); ?>" class="navbar-brand">
+        <?php bloginfo('name'); ?>
+      </a>
+
     </div>
 
     <nav class="collapse navbar-collapse pull-right" role="navigation">
@@ -22,16 +25,16 @@
 
   <div class="container">
     <div class="jumbotron">
-      <h1>
-        Yerel / Bölgesel Kamu Politikaları ve Yatırımları
-      </h1>
+      <h2>
+        Bölgesel Kamu Politikaları ve Yatırımları
+      </h2>
       <br />
-      <a href="http://yereldemokrasi.net/sistem-nasil-isliyor/" class="btn btn-default btn-lg">
-        SİSTEM NASIL İŞLİYOR
+      <a href="http://yereldemokrasi.net/sistem-nasil-isliyor/" class="btn btn-default btn-md">
+        SİSTEM NASIL İŞLİYOR?
       </a>
       &nbsp;&nbsp;
-      <a href="http://yereldemokrasi.net/nasil-mudahil-olabiliriz/" class="btn btn-default btn-lg">
-        NASIL MÜDAHİL OLABİLİRİZ
+      <a href="http://yereldemokrasi.net/nasil-mudahil-olabiliriz/" class="btn btn-default btn-md">
+        NASIL MÜDAHİL OLABİLİRİZ?
       </a>
       <!-- <button type="button" class="btn btn-default btn-lg"></button> -->
       <!-- <button type="button" class="btn btn-default btn-lg">NASIL MÜDAHİL OLABİLİRİZ</button> -->
