@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Nasıl Müdahil Oluruz?
+Template Name: Nasıl Müdahil Olabiliriz?
 */
 ?>
 
