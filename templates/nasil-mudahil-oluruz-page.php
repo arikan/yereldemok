@@ -1,12 +1,12 @@
 <?php
 /*
-Template Name: Yayınlar
+Template Name: Nasıl Müdahil Oluruz?
 */
 ?>
 
 <?php get_template_part('templates/page', 'header'); ?>
 
-<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("cat=6&paged=$paged"); ?>
+<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; query_posts("cat=8&paged=$paged"); ?>
 
 <?php while (have_posts()) : the_post(); ?>
     <div class="box span3">
