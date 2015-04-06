@@ -58,7 +58,7 @@ function your_prefix_register_meta_boxes( $meta_boxes )
       // TEXT
 
       array(
-        'name'             => __( 'Görsel', 'meta-box' ),
+        'name'             => __( 'Görseller', 'meta-box' ),
         'id'               => "post_images",
         'type'             => 'image_advanced',
         'max_file_uploads' => 99,
