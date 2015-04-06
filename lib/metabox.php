@@ -70,7 +70,7 @@ function your_prefix_register_meta_boxes( $meta_boxes )
       ),
 
       array(
-        'name' => __( 'Attachments', 'rampa' ),
+        'name' => __( 'Dosyalar', 'rampa' ),
         'id'   => "attachment_files",
         'type' => 'file_advanced',
         'max_file_uploads' => 99,
