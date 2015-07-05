@@ -44,37 +44,68 @@ a#search-link {
   background-color: #FFFFFF;
   border:none;
 }
-nav {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  margin-top: 25px;
-}
-
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #000000;
   background-color: #FFFFFF;
 }
-.navbar-brand {
+nav {
   font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: -.04em;
-}
+  font-weight: 400;
+  margin-top: 25px;
 
+  ul {
+    width: 100%;
+  }
+}
+li.menu-proje-hakkinda {
+  a {
+    padding-left: 0;
+  }
+}
 li.menu-haritani-yap {
+  float: right;
+
   a {
     padding: 7px 14px 7px 14px;
     border: 1px solid rgba(0,0,0,0.20);
     -webkit-border-radius: 32px;
     -moz-border-radius: 32px;
-    border-radius: 32px;
+    border-radius: 5px;
     margin-top: 7px;
   }
   a:hover {
     color: #FFFFFF !important;
     background-color: #FFC000 !important;
+  }
+}
+
+// Logo and search bar
+.navbar-brand {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: -.04em;
+
+  margin-right: 20px;
+}
+a.ablogo {
+  margin-top: 24px;
+
+  img {
+    width: 100px;
+  }
+}
+.search-bar {
+  margin-top: 30px;
+  float: left;
+
+  form.search-form {
+    display: inline-block;
+  }
+  .form-inline .input-group > .form-control {
+    width: 81%;
   }
 }
 
@@ -105,12 +136,32 @@ li.menu-haritani-yap {
   margin: 0;
   border: none;
 }
-.page-header h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: -.04em;
-  margin-top: 0;
+.page-header {
+  h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -.04em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+article {
+  header {
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: -.04em;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .entry-content {
+    font-size: 1.6rem;
+    line-height: 160%;
+  }
 }
 
 .btn {
@@ -180,6 +231,6 @@ li.menu-haritani-yap {
 
 
 address {
-    font-size: 0.8em;
+    font-size: 1.0em;
     margin-bottom: 0;
 }
