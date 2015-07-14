@@ -35,5 +35,5 @@ foreach ($roots_includes as $file) {
 unset($file, $filepath);
 
 /* Stop WordPress from adding those annoying closing paragraph tags */
-remove_filter( 'the_content', 'wpautop' );
-remove_filter( 'the_excerpt', 'wpautop' );
+// remove_filter( 'the_content', 'wpautop' );
+// remove_filter( 'the_excerpt', 'wpautop' );
